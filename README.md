@@ -1,6 +1,6 @@
 # NextJS Projects
 
-A collection of React projects created during my journey of mastering React. This repository showcases my progress, experiments, and hands-on experience with building dynamic and interactive user interfaces using React.
+This repository contains a collection of NextJS projects created during my journey to mastering NextJS. It showcases my progress, experiments, and hands-on experience building dynamic and interactive user interfaces using React.
 
 ## 🚀 Projects
 
@@ -17,7 +17,7 @@ A collection of React projects created during my journey of mastering React. Thi
 
 ## 🛠️ Technologies Used
 
-- React.js
+- NEXTJS
 - JavaScript (ES6+)
 - HTML5 & CSS3
 
