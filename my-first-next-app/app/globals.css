@@ -4,20 +4,18 @@
 
 /* Where we define our golbal variables */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #ededed;
 }
 
 /* override the current color scheem if the user is on dark mode */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground: #171717;
   }
 }
 
 body {
+  padding: 1rem;
   color: var(--foreground);
-  background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
