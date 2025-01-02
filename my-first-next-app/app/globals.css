@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Where we define our golbal variables */
+:root {
+  --foreground: #ededed;
+}
+
+/* override the current color scheem if the user is on dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground: #171717;
+  }
+}
+
+body {
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
