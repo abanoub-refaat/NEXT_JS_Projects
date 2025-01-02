@@ -1,13 +1,14 @@
-import React from 'react'
+import { notFound } from "next/navigation";
+import React from "react";
 
 interface Props {
-    params: {id: number};
+  params: { id: number };
 }
 
 const UserDitailPage = ({ params: { id } }: Props) => {
-  return (
-    <div>UserDitailPage  {id}</div>
-  )
-}
+  if (id > 10) notFound();
 
-export default UserDitailPage
+  return <div>UserDitailPage {id}</div>;
+};
+
+export default UserDitailPage;
